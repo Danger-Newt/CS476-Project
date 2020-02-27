@@ -4,27 +4,31 @@
         <link rel="stylesheet" type="text/css" href="styleSheet.css">
         <title>Sign Up</title>
     </head>
-    <body>
+    <header>
         <h1>Sign Up</h1>
-    </br>
+        <hr>
+    </header>
+    <body>
+        <p>Already have an account? <a href="login.html">Log In Here</a></p>
+   
         <form>
             <table>
-                <tr><td>Username: </td><td><input type="text" id="username" name="username"></td>
+                <tr><td>Username: </td><td><input type="text" id="username" name="username" placeholder="Username"></td>
                     <td><div class="tooltip">?<span class="tooltiptext">Must be at least 4 characters long</span> </div></td>
                 </tr>
-                <tr><td>Password: </td><td><input type="password" id="pword" name="pword"></td>
+                <tr><td>Password: </td><td><input type="password" id="pword" name="pword" placeholder="Password"></td>
                     <td><div class="tooltip">?<span class="tooltiptext">Must be at least 8 characters including one number</span></div></td>
                 </tr>
-                <tr><td>Password (repeat): </td><td><input type="password" id="pwordConf" name="pwordConf"></td>
+                <tr><td>Password (repeat): </td><td><input type="password" id="pwordConf" name="pwordConf" placeholder="Password (Confirm)"></td>
                     <td><div class="tooltip">?<span class="tooltiptext">Must be at least 8 characters including one number</span></div></td>
                 </tr>
-                <tr><td>WarehouseID: </td><td><input type="text" id="wareID" name="wareID"></td>
+                <tr><td>WarehouseID: </td><td><input type="text" id="wareID" name="wareID" placeholder="Warehouse ID"></td>
                     <td><div class="tooltip">?<span class="tooltiptext">Your employer should give you this</span></div></td>
                 </tr>
-                <tr><td>First Name: </td><td><input type="text" id="fname" name="fname"></td></tr>
-                <tr><td>Last Name: </td><td><input type="text" id="lname" name="lname"></td></tr>
+                <tr><td>First Name: </td><td><input type="text" id="fname" name="fname" placeholder="First Name"></td></tr>
+                <tr><td>Last Name: </td><td><input type="text" id="lname" name="lname" placeholder="Last Name"></td></tr>
             </table>
-            <input type="submit" id="submit" name="submit"><br/>
+            <input type="submit" id="submit" name="submit"><br>
         </form>
     </body>
 
