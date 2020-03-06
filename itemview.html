@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS/styleSheet.css">
+        <title>Items</title>
+    </head>
+    <header>
+        <h1>Item 51 - DVD</h1>
+        <hr>
+        <div class="profileButton">Profile</div>
+        <br>
+    </header>
+    <body>
+
+        <table class="itemInfo">
+            <tr><td>DVD</td></tr>
+            <tr><td>Item #51</td></tr>
+            <tr><td>142 in stock across 3 warehouses</td></tr>
+            <tr><td>$0.94/DVD ($133.84 stock value)</td></tr>
+            <tr><form>
+                <!-- Buy more stock area -->
+                <td><input type = "number" id="amtBuy" name="amtBuy" min="0" max="999" value="0">
+                    <input type="submit" id="buyStock" name="buyStock" value = "Buy">
+                </td>
+            </form></tr>
+            <tr><form>
+                <!-- Sell some stock area -->
+                <td><input type = "number" id="amtSell" name="amtSell" min="0" max="142" value="0">
+                    <input type="submit" id="sellStock" name="sellStock" value = "Sell">
+                </td>
+            </form></tr>
+        </table>
+
+        <br><br><br>
+        <span class = "itemDesc">
+            Sony DVD/RW designed for users to store their own data on portable disks.
+            This is where item descriptions will go.
+            Now isn't that fancy!
+        </span>
+
+    </body>
+
+</html>

@@ -93,3 +93,17 @@
 .warePreview:hover {
   background-color: #ccc;
 }
+
+.itemDesc{
+  background-color: #ccc;
+  border: solid;
+  border-color: #000;
+  padding: 8px;
+}
+
+table.itemInfo{
+  background-color: #ddd;
+  border: solid;
+  border-color: #000;
+  padding: 8px;
+}
