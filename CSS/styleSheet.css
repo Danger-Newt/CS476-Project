@@ -90,6 +90,17 @@
   background-color: #fff;
 }
 
+.newWarePrev {
+  border: solid;
+  text-align: center;
+  padding: 8px;
+  background-color: #ccc;
+}
+
+.newWarePrev:hover {
+  background-color: #eee;
+}
+
 .warePreview:hover {
   background-color: #ccc;
 }

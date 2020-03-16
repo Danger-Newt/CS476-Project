@@ -22,7 +22,8 @@
                 <tr><td>Password (repeat): </td><td><input type="password" id="pwordConf" name="pwordConf" placeholder="Password (Confirm)"></td>
                     <td><div class="tooltip">?<span class="tooltiptext">Must be at least 8 characters including one number</span></div></td>
                 </tr>
-                <tr><td>WarehouseID: </td><td><input type="text" id="wareID" name="wareID" placeholder="Warehouse ID"></td>
+                <tr><td>New Company?:</td><td><input type="checkbox" id="newComp" name="newComp" onclick="newCompBox()"</td></tr>
+                <tr><td>CompanyID: </td><td><input type="text" id="compID" name="compID" placeholder="Company ID"></td>
                     <td><div class="tooltip">?<span class="tooltiptext">Your employer should give you this</span></div></td>
                 </tr>
                 <tr><td>First Name: </td><td><input type="text" id="fname" name="fname" placeholder="First Name"></td></tr>
@@ -31,5 +32,21 @@
             <input type="submit" id="submit" name="submit value="Submit"><br>
         </form>
     </body>
+
+    <script>
+        function newCompBox(){
+            //Generate new company ID for the user (use random for now) and block CompanyID input
+            var newCompChkBox = document.getElementById("newComp");
+            var compIdInput = document.getElementById("compID");
+
+            if (newCompChkBox.checked){
+                compIdInput.setAttribute("disabled", "disabled");
+                compIdInput.value = Math.floor((Math.random() * 1000));
+            }else{
+                compIdInput.removeAttribute("disabled");
+                compIdInput.value = "";
+            }
+        }
+    </script>
 
 </html>

@@ -35,7 +35,27 @@
         </table>
         <br>
 
-        <span class="pushButton">+</span>
+        <span class="pushButton" id="newWHButton" onclick="newWarehouse()">New</span>
+        <script>
+            //Make a warehouse form for users to make a new warehouse
+            function newWarehouse(){
+                //Simply make the hidden table visible and remove plus button
+                var newWHPrev = document.getElementsByClassName("newWarePrev");
+                newWHPrev[0].setAttribute("style", "visibility:visible");
+                var newWHButton = document.getElementById("newWHButton");
+                newWHButton.parentNode.removeChild(newWHButton);
+            }
+        </script>
+
+        <br>
+        <table class="newWarePrev" style="visibility:hidden">
+            <form>
+                <tr><td><input type="text" id="newWhName" name="newWhName" placeholder="New Warehouse Name"></td></tr>
+                <tr><td>New Warehouse ID</td></tr>
+                <tr><td><input type="submit" id="newWhSubmit" name="newWhSubmit" value="Submit"></td></tr>
+            </form>
+        </table>
+        <br>
 
     </body>
 
