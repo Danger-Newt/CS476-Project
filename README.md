@@ -1,8 +1,7 @@
 # CS476-Project
 CS476 Project Winter 2020
 
-This is a test.  Testing.
-editing test
+<a href = "https://docs.google.com/presentation/d/1YbzYiaL_5-cVJseSNO9-jIHoxCZbnAMTPcMH8KwmZiI/edit?usp=sharing">Link to class prez slides</a>
 
 <br/>
 <b>
