@@ -1,7 +1,9 @@
 # CS476-Project
 CS476 Project Winter 2020
 
-<a href = "https://docs.google.com/presentation/d/1YbzYiaL_5-cVJseSNO9-jIHoxCZbnAMTPcMH8KwmZiI/edit?usp=sharing">Link to class prez slides</a>
+<a href = "https://docs.google.com/presentation/d/1YbzYiaL_5-cVJseSNO9-jIHoxCZbnAMTPcMH8KwmZiI/edit?usp=sharing">Link to class presentation slides</a>
+<br/>
+<a href = "https://youtu.be/k4DS0af-PiA">Link to class presentation video</a>
 
 <br/>
 <b>
